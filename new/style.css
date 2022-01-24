@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+h1 {
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav p {
+  margin-right: 2rem;
+  color: white;
+}
+
+nav img {
+  width: 2rem;
+  margin-right: 2rem;
+}
+.container {
+  padding: 6rem 0;
+}
+.content {
+  text-align: center;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.p1 {
+  color: #89a6ef;
+}
+.p2 {
+  color: white;
+}
+
+.p3 {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+  font-size: 0.8rem;
+}
+.butt {
+  text-align: center;
+  color: white;
+  margin: 3rem 0;
+}
+button {
+  border-radius: 15px;
+  border: none;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+button:first-child {
+  background: rgba(55, 64, 176, 1);
+  margin-right: 4rem;
+  color: white;
+  border: none;
+}
+.img {
+  background: rgba(0, 0, 0, 0.1) url("./image-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.mottoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mottoContainer h2 {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.mottoContainer p {
+  margin-top: 1rem;
+  color: white;
+  font-size: 0.8rem;
+}
+.mottoContainer .firstContent,
+.mottoContainer .secondContent,
+.mottoContainer .thirdContent {
+  text-align: center;
+  padding: 2rem;
+  border: 0;
+}
+
+.mottoContainer .firstContent {
+  background: rgba(0, 0, 0, 0.3) url("./first1.svg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mottoContainer .secondContent {
+  background: rgba(0, 0, 0, 0.3) url("./second2.svg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mottoContainer .thirdContent {
+  background: rgba(0, 0, 0, 0.3) url("./third3.svg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainhead {
+  text-align: center;
+  padding-top: 1rem;
+}
+.mainhead p {
+  font-size: 0.8rem;
+  color: black;
+}
+.photos {
+  max-width: 1100px;
+  margin: 0.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.photos img {
+  width: 100%;
+}
+.photos h3 {
+  color: rgba(37, 64, 153, 1);
+}
+.photos p {
+  font-size: 0.8rem;
+  color: black;
+}
+.photos h3,
+.photos p {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.intro {
+  margin-top: 5rem;
+}
+.intro .img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.intro img {
+  margin-top: -4rem;
+  width: 500px;
+}
+.intro h1,
+.intro h5 {
+  text-align: center;
+  padding: 0.8rem;
+}
+.intro h1 {
+  color: white;
+}
+.intro h5 {
+  color: rgba(165, 179, 223, 1);
+}
+.intro .para {
+  padding: 2rem 5rem;
+  font-size: 0.8rem;
+  color: rgba(165, 179, 223, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.5rem;
+}
+
+.intro {
+  background: rgba(0, 0, 0, 0.1) url("./pic2.svg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 6rem;
+}
+.services {
+  /* background-color: red; */
+}
+
+.services .sub {
+  z-index: 11;
+  max-width: 1100px;
+  margin: -5rem auto auto auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  box-shadow: 0px 0px 75px rgba(12, 12, 12, 0.07);
+}
+.services .sub img {
+  width: 100%;
+  height: 400px;
+}
+
+.sub section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.sub section h2 {
+  color: #4b5091;
+  font-size: 2rem;
+}
+.sub section p {
+  color: black;
+  font-size: 0.8rem;
+  line-height: 0.1rem;
+}
+.lasted {
+  max-width: 1100px;
+  margin: 5rem auto;
+}
+
+.lasted .news {
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.lasted .lastimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.lasted .lastimg img {
+  width: 100%;
+}
+.lasted h3 {
+  color: rgba(37, 64, 153, 1);
+}
+.lasted p {
+  font-size: 0.8rem;
+  color: rgba(116, 116, 116, 1);
+}
+.bankingservices {
+  max-width: 1100px;
+  margin: 5rem auto;
+}
+.bankingservices h2 {
+  text-align: center;
+  padding: 1.5rem;
+}
+.bankingservices .link {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.bankingservices img {
+  width: 100%;
+}
+.mainabout {
+  background-color: #1f1f1f;
+}
+.moreabout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin: 5rem auto 0 auto;
+  grid-gap: 1rem;
+}
+.moreabout .gallary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  width: 100%;
+}
+.moreabout p {
+  font-size: 0.8rem;
+}
+.moreabout h2,
+p {
+  color: white;
+  padding: 1rem;
+}
+
+.recent .post1,
+.post2,
+.post3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 0.8rem;
+}
+.footer h5 {
+  color: #838383;
+}
+footer {
+  padding: 1rem 0;
+  background: #1f1f1f;
+}
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer img {
+  width: 150px;
+}

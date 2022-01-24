@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle .innercircle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innercircle h1 {
+  color: yellow;
+}
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle .innerrectangle {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerrectangle h1 {
+  color: blue;
+}
+.square {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  position: relative;
+}
+.square .innersquare {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.diamond {
+  width: 100px;
+  height: 100px;
+  background-color: turquoise;
+  position: relative;
+  transform: rotate(45deg);
+}
+.diamond .innerdiamond {
+  width: 90px;
+  height: 90px;
+  background-color: tomato;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.diamond .innerdiamond h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
